@@ -1,13 +1,13 @@
 # Site settings
-title: RIT Linux Users Group
-title-abbrev: RITlug
+title: UMBC Linux Users Group
+title-abbrev: umbclug
 
-email: eboard@ritlug.com
+email: lug@umbc.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Official site of the RIT Linux Users Group (RITlug). Find all
+  Official site of the UMBC Linux Users Group (umbclug). Find all
   our talks and announcements here.
 
-url: 'https://ritlug.com'
+url: 'https://lug.umbc.edu'
 # Build settings
 markdown: kramdown
 permalink: pretty # no .html extension needed/wanted
@@ -20,13 +20,11 @@ future: true
 # location. They will appear in pages as they are typed, so it
 # is recommended that you follow the format already here when
 # updating them.
-ritlug-time: 4:30PM - 6:00PM
-#ritlug-place: GOL/70-2620 (Medium DB Lab)
-ritlug-place: GOL/70-2455
-ritlug-day: Friday
+umbclug-time: 7:00PM - 8:00PM
+umbclug-place: SOND 113
+umbclug-day: Wednesday
 
 # this allows social links to also be easily updated
 social:
-  irc: https://web.libera.chat/gamja/?channels=%23rit-lug
   mailinglist: https://groups.google.com/forum/#!forum/ritlug-announce
-  discord: https://discord.gg/xev2W62
+  discord: https://discord.gg/HqyKN7dZkW

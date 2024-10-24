@@ -1,4 +1,4 @@
-# ritlug.github.io
+# umbclug.github.io
 
 > RITlug's current website.
 

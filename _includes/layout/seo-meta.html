@@ -3,12 +3,10 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     <meta name="application-name" content="{{ site.title }}" />
-    <meta name="twitter:site" content="@RITlug" />
     <meta name="twitter:card" content="summary_large_image" />
     {% if page.excerpt %}
         <meta name="description" content="{{ page.excerpt | strip_html | truncate: 155 }}" />
         <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
-        <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 200 }}" />
     {% else %}
         <meta name="description" content="{{ site.description }}">
         <meta property="og:description" content="{{ site.description }}">
@@ -65,11 +63,11 @@
         ],
         "location": {
             "@type": "Place",
-            "name": "Rochester Institute of Technology",
+            "name": "University of Maryland, Baltimore County",
             "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Henrietta",
-                "addressRegion": "NY"
+                "addressLocality": "Catonsville",
+                "addressRegion": "MD"
             }
         }
     }
