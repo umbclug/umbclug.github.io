@@ -6,33 +6,9 @@ title: Home
 <section id="home-about" class="jumbotron jumbotron-fluid">
     <div class="container">
         <h1 class="display-4">UMBC Linux Users' Group</h1>
-        <p class="lead">We are a student-led organization to  contribute to and engage students in Linux &amp; open source.</p>
+        <p class="lead">An on campus club dedicated to Linux and open source software!</p>
         <hr class="lead-4" />
-        <p>Work on projects and discuss interesting topics in the Linux &amp; open source communities.</p>
-        <p>Weekly meetings every {{ site.umbclug-day }}, from {{ site.umbclug-time }}, at {{ site.umbclug-place }}.</p>
-    </div>
-</section>
-
-<section id="do-stuff" class="container">
-    <div class="row" style="margin-bottom:-1.2em;">
-        <div class="col-12 col-md-6" style="margin-bottom:1.2em;">
-            <h2>Discuss</h2>
-            <div class="list-group">
-                <a href="{{site.social.discord}}" class="list-group-item list-group-item-action">Discord</a>
-                <a href="{{site.social.mailinglist}}" class="list-group-item list-group-item-action">Mailing List (Google Group)</a>
-                <a href="{{site.social.irc}}" class="list-group-item list-group-item-action"><code>#ritlug</code> on IRC</a>
-                <a href="https://twitter.com/RITlug" class="list-group-item list-group-item-action">Twitter</a>
-            </div>
-        </div>
-        <div class="col-12 col-md-6" style="margin-bottom:1.2em;">
-            <h2>Do</h2>
-            <div class="list-group">
-            <a href="/get-involved" class="list-group-item list-group-item-action">Get Involved</a>
-            <a href="/calendar" class="list-group-item list-group-item-action">Calendar</a>
-            <a href="/projects" class="list-group-item list-group-item-action">Projects</a>
-            <a href="https://github.com/RITlug" class="list-group-item list-group-item-action">GitHub</a>
-            </div>
-        </div>
+        <p>Weekly meetings every {{ site.umbclug-day }}, from {{ site.umbclug-time }} in {{ site.umbclug-place }}.</p>
     </div>
 </section>
 
@@ -44,6 +20,7 @@ title: Home
       RIT students, please subscribe on <a href="https://campusgroups.rit.edu/student_community?club_id=16071" target="_blank">CampusGroups</a>;
       RIT's filters don't like the public list.
       RIT non-students, please email {{ site.email }} to be added on CampusGroups.
+      (todo: update for umbc)
     </em></p>
 
     {% for post in site.categories.announcements limit: 1 %}
